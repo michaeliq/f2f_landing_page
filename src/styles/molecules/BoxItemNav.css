@@ -1,0 +1,14 @@
+.box-item-nav{
+    background-color: #fff;
+    padding: .7rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    width: 270px;
+    height: 40px;
+    border-radius: 20px;
+    border: 7px solid #00acec;
+    box-shadow: inset -7px -2px #000, inset -7px 2px #000;
+    overflow: hidden;
+}
