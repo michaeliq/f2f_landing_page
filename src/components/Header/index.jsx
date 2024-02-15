@@ -1,4 +1,3 @@
-import logo from '../../logo.svg';
 import "../../styles/components/Header.css";
 import Nav from '../Nav';
 
