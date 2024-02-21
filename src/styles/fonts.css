@@ -1,0 +1,101 @@
+/*Nunito*/
+@font-face {
+    font-family: 'Nunito Black';
+    src: url('/src/fonts/Nunito\ Black\ Italic_2973.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('/src/fonts/Nunito\ Bold\ Italic_2969.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('/src/fonts/Nunito\ Bold_2968.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('/src/fonts/Nunito\ Extra\ Bold\ Italic_2971.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Nunito Extra Bold';
+    src: url('/src/fonts/Nunito\ Extra\ Bold_2970.ttf') format('truetype');
+    font-weight: 700;
+}
+
+/*Opensans*/
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/src/fonts/OpenSans-Regular_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/src/fonts/OpenSans-Semibold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/src/fonts/OPENSANS-BOLD.TTF') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/src/fonts/OPENSANS-BOLDITALIC.TTF') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/src/fonts/OpenSans-CondensedLight.ttf') format('truetype');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/src/fonts/OpenSans-CondensedLightItalic.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/src/fonts/OPENSANS-EXTRABOLDITALIC.TTF') format('truetype');
+    font-weight: bolder;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/src/fonts/OpenSans-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/src/fonts/OPENSANS-LIGHT.TTF') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/src/fonts/OPENSANSLIGHT-ITALIC.TTF') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+/*Fontps*/
+@font-face {
+    font-family: 'Fontps';
+    src: url('/src/fonts/11492-fontps.ttf') format('truetype');
+}

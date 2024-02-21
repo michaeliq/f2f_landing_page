@@ -10,5 +10,10 @@
     border-radius: 20px;
     border: 7px solid #00acec;
     box-shadow: inset -7px -2px #000, inset -7px 2px #000;
+    transition: .3s ease-in-out;
     overflow: hidden;
+}
+
+.box-item-nav:hover{
+    box-shadow: inset -7px -2px #000, inset -7px 2px #000, inset -8px 3px 8px #555a, 2px 3px #555a, -2px -3px #555a;
 }

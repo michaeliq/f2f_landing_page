@@ -1,8 +1,9 @@
 .navbar{
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 15vw;
 }
 
 .navbar-link-container{
@@ -17,10 +18,11 @@
     display: block;
     text-align: center;
     font-size: 1.5rem;
+    font-family: "Nunito Black";
+    font-weight: bolder;
     color: #000;
     text-decoration: none;
-    font-weight: bold;
-    transition: .5s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 .navbar-link-item:nth-child(2) > .box-item-nav{
@@ -32,15 +34,6 @@
 }
 
 .navbar-link-item:hover{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     color:#003595;
-}
-
-.left-dot-img{
-    margin-right: 2rem;
-}
-
-.right-dot-img{
-    transform: rotate(180deg);
-    margin-left: 5rem;
 }

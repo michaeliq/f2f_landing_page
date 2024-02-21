@@ -1,0 +1,64 @@
+.banner-section-vc {
+    width: 100%;
+    position: relative;
+    height: 105vh;
+}
+
+.banner-main.image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.banner-main.logo {
+    width: 60vw;
+    margin-top: 3rem;
+    height: auto;
+}
+
+h1.banner-main.title {
+    font-family: "Fontps";
+    color: #fff;
+    font-size: 5.5rem;
+    text-shadow: 2px 2px #0c6893, -2px -2px #0c6893;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    width: max-content;
+    position: relative;
+    top: -10rem;
+    left: 2rem;
+    rotate: -8.5deg;
+}
+
+.banner-main.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: first baseline;
+    padding: 3rem 4rem;
+}
+
+.banner-main-info1 {
+    color:#fff;
+    font-size: 2.2vw;
+    text-align: left;
+    margin: 0;
+    font-family: "Fontps";
+    text-shadow: 2px 2px #0c6893, -2px -2px #0c6893;
+    letter-spacing: 3px;
+}
+
+.banner-main-link {
+    color:#fff;
+    font-size: 5vw;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 3vw;
+    font-family: "Fontps";
+    text-shadow: 2px 2px #0c6893, -2px -2px #0c6893;
+    letter-spacing: 3px;
+    text-decoration: none;
+}

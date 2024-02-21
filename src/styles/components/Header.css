@@ -1,40 +1,21 @@
-.logo {
-    height: 5vmin;
-    pointer-events: none;
-  }
 
-.header > h1 {
-    font-size: 4rem;
-    margin-left: 3rem;
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  position: relative;
 }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .logo {
-      animation: logo-spin infinite 20s linear;
-    }
-  }
-  
-  .header {
-    width: 85vw;
-    border-top: 4px solid #000;
-    border-bottom: 10px solid #000;
-    background-color: #003595;
-    height: 13vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    padding: 0 0 0 3rem;
-  }
-  
-  @keyframes logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
+
+.header > .banner-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

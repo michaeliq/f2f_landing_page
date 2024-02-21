@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import "../../styles/components/Nav.css"
 import { Link, useLocation } from "react-router-dom"
 import BoxItemNav from "../../molecules/BoxItemNav"
-import dots from "./header-dot.PNG"
 
 const Nav = () => {
 
@@ -28,26 +27,24 @@ const Nav = () => {
 
     return (
         <div className="navbar">
-            <img src={dots} className="left-dot-img" alt="dots"/>
             <ul className="navbar-link-container">
                 <Link to={"/"} className="navbar-link-item">
                     <BoxItemNav>
-                        Inscribase en el Ring
+                        <li>Inscribase en el Ring</li>
                     </BoxItemNav>
                 </Link>
                 <Link to={"/"} className="navbar-link-item">
                     <BoxItemNav>
-                        Agenda
+                        <li>Agenda {currentPath === "/vision-care" ? "Vision Care":"Surgical"}</li>
                     </BoxItemNav>
                 </Link>
                 <Link to={selectedURL} className="navbar-link-item">
                     <BoxItemNav>
-                        {selectedPage}
+                        <li>{selectedPage}</li>
                     </BoxItemNav>
                 </Link>
             </ul>
-            <img src={dots} className="right-dot-img" alt="dots"/>
-        </div>
+            </div>
     )
 }
 
