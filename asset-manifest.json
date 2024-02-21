@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/f2f_landing_page/static/css/main.c5067ef1.css",
-    "main.js": "/f2f_landing_page/static/js/main.a7a9e1a9.js",
+    "main.css": "/f2f_landing_page/static/css/main.ff9e4434.css",
+    "main.js": "/f2f_landing_page/static/js/main.969123ca.js",
+    "static/media/FONDOS-BANNERS-SURGICAL.png": "/f2f_landing_page/static/media/FONDOS-BANNERS-SURGICAL.c7e67d8eeebabecf3e87.png",
     "static/media/FONDOS-BANNERS-VC.png": "/f2f_landing_page/static/media/FONDOS-BANNERS-VC.adda8140c6cfe49af851.png",
+    "static/media/fondo-agenda-sur.png": "/f2f_landing_page/static/media/fondo-agenda-sur.03515fb3f024e8677be7.png",
+    "static/media/fondo-agenda-vc.png": "/f2f_landing_page/static/media/fondo-agenda-vc.5151376c9208d609a588.png",
     "static/media/LOGO_F2F_CON_FECHA.png": "/f2f_landing_page/static/media/LOGO_F2F_CON_FECHA.070adf3a869a244f6d60.png",
+    "static/media/fondo-formularios.png": "/f2f_landing_page/static/media/fondo-formularios.d8f6da103aca2f0f5d9a.png",
     "static/media/OPENSANS-BOLD.TTF": "/f2f_landing_page/static/media/OPENSANS-BOLD.043771c999cd4d47d9f3.TTF",
     "static/media/OPENSANS-LIGHT.TTF": "/f2f_landing_page/static/media/OPENSANS-LIGHT.3d5923f94fc319b5652a.TTF",
     "static/media/OpenSans-Semibold.ttf": "/f2f_landing_page/static/media/OpenSans-Semibold.029b9bc9d72f4d799803.ttf",
@@ -18,15 +22,16 @@
     "static/media/Nunito Bold Italic_2969.ttf": "/f2f_landing_page/static/media/Nunito Bold Italic_2969.62888b616589385ee752.ttf",
     "static/media/Nunito Extra Bold_2970.ttf": "/f2f_landing_page/static/media/Nunito Extra Bold_2970.e2978b0fea8c866cb940.ttf",
     "static/media/Nunito Bold_2968.ttf": "/f2f_landing_page/static/media/Nunito Bold_2968.7ddd6722d49bf5270cf1.ttf",
+    "static/media/agenda-test.png": "/f2f_landing_page/static/media/agenda-test.97c084ad5a60997c5502.png",
     "static/media/OpenSans-Italic.ttf": "/f2f_landing_page/static/media/OpenSans-Italic.ac4a9433780d509b4da4.ttf",
     "static/media/11492-fontps.ttf": "/f2f_landing_page/static/media/11492-fontps.d5b67ca1be6b639bf442.ttf",
     "static/media/banner solo.png": "/f2f_landing_page/static/media/banner solo.04943dc63e78fd5b6280.png",
     "index.html": "/f2f_landing_page/index.html",
-    "main.c5067ef1.css.map": "/f2f_landing_page/static/css/main.c5067ef1.css.map",
-    "main.a7a9e1a9.js.map": "/f2f_landing_page/static/js/main.a7a9e1a9.js.map"
+    "main.ff9e4434.css.map": "/f2f_landing_page/static/css/main.ff9e4434.css.map",
+    "main.969123ca.js.map": "/f2f_landing_page/static/js/main.969123ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5067ef1.css",
-    "static/js/main.a7a9e1a9.js"
+    "static/css/main.ff9e4434.css",
+    "static/js/main.969123ca.js"
   ]
 }
