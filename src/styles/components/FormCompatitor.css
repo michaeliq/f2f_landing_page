@@ -1,0 +1,93 @@
+form.form-compatitor-container {
+    width: 80%;
+    margin: 3rem auto;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 8px solid #000;
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+}
+
+div.form-compatitor{
+    width: 100%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+
+div.form-compatitor.content-input {
+    border: 3px solid #000;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.form-compatitor.content-input>label {
+    font-family: "Nunito Black";
+    color: #003595;
+    font-size: 2rem;
+}
+
+div.form-compatitor.content-input>input {
+    font-family: "Nunito Black";
+    color: #333;
+    font-size: 1.5rem;
+    border: none;
+    margin-left: 1rem;
+}
+
+div.form-compatitor.content-input > textarea:focus, div.form-compatitor.content-input > input:focus{
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+div.form-compatitor.content-input >button{
+    padding: .5rem .7rem;
+    border-radius: 5vw;
+    width: 15vw;
+    background-color: #fff;
+    border: 5px solid #000;
+    font-size: 2rem;
+    font-family: "Nunito Black";
+    font-weight: bolder;
+    color: #3ec1f2;
+    margin: 1rem auto .2rem auto;
+}
+
+.form-section.disclaimer{
+    color: #fff;
+    font-family: "OpenSans";
+    font-weight: 600;
+    padding: 0 10rem;
+    font-size: 1.2rem;
+}
+
+.form-section.container-checkbox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section.container-checkbox > .form-section.valid_disclaimer{
+    color:#fff;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 25%;
+    border: 3px solid #000;
+}
+.form-section.container-checkbox > .form-section.text_checkbox{
+    color:#fff;
+    font-family: "OpenSans";
+    font-weight: 600;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}

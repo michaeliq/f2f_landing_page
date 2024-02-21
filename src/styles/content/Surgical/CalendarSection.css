@@ -1,0 +1,39 @@
+.calendar-sur{
+    background-image: url("/src/images/fondo-agenda-sur.png");
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.calendar-sur > h2.calendar-title{
+    margin-top: 5vw;
+    -webkit-text-stroke: 4px #661d76;
+    text-shadow: 2px 2px #661d76, -2px -2px #661d76;
+    color: #fff;
+    font-size: 5rem;
+    font-family: "Nunito Black";
+    
+}
+
+.calendar-sur > h3.calendar-subtitle{
+    font-family: "Fontps";
+    color: #fff;
+    font-size: 5rem;
+    -webkit-text-stroke: 1px #372971;
+    margin: .2rem auto;
+}
+
+.calendar-sur.content{
+    width: 80%;
+    height: auto;
+    margin: 1rem auto;
+    border-top: 3px solid #000;
+
+}
+
+.calendar-sur.test-img-agenda{
+    width: 100%;
+    height: auto;
+}

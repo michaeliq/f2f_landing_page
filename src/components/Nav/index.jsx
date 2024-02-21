@@ -7,7 +7,9 @@ const Nav = () => {
 
     const [selectedPage, setPage] = useState("")
     const [selectedURL, setURL] = useState("")
-    const currentPath = useLocation().pathname
+    const {pathname, hash, key} = useLocation()
+
+    const currentPath = pathname
 
     const GetPathname = (currentPath) => {
 
@@ -25,15 +27,32 @@ const Nav = () => {
         GetPathname(currentPath)
     }, [currentPath])
 
+    useEffect(() => {
+        // if not a hash link, scroll to top
+        if (hash === '') {
+          window.scrollTo(0, 0);
+        }
+        // else scroll to id
+        else {
+          setTimeout(() => {
+            const id = hash.replace('#', '');
+            const element = document.getElementById(id);
+            if (element) {
+              element.scrollIntoView({behavior:"smooth"});
+            }
+          }, 0);
+        }
+      }, [pathname, hash, key])
+
     return (
         <div className="navbar">
             <ul className="navbar-link-container">
-                <Link to={"/"} className="navbar-link-item">
+                <Link to={currentPath === "/surgical" ? "/surgical#form-section-sur":"/vision-care#form-section-vc"} className="navbar-link-item">
                     <BoxItemNav>
                         <li>Inscribase en el Ring</li>
                     </BoxItemNav>
                 </Link>
-                <Link to={"/"} className="navbar-link-item">
+                <Link to={currentPath === "/surgical" ? "/surgical#calendar-sur":"/vision-care#calendar-vc"} className="navbar-link-item">
                     <BoxItemNav>
                         <li>Agenda {currentPath === "/vision-care" ? "Vision Care":"Surgical"}</li>
                     </BoxItemNav>
