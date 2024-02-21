@@ -1,14 +1,32 @@
 {
   "files": {
-    "main.css": "/f2f_landing_page/static/css/main.096dbbd1.css",
-    "main.js": "/f2f_landing_page/static/js/main.e26ad8a5.js",
-    "static/media/header-dot.PNG": "/f2f_landing_page/static/media/header-dot.ad65c068cebfcd58b5ab.PNG",
+    "main.css": "/f2f_landing_page/static/css/main.c5067ef1.css",
+    "main.js": "/f2f_landing_page/static/js/main.a7a9e1a9.js",
+    "static/media/FONDOS-BANNERS-VC.png": "/f2f_landing_page/static/media/FONDOS-BANNERS-VC.adda8140c6cfe49af851.png",
+    "static/media/LOGO_F2F_CON_FECHA.png": "/f2f_landing_page/static/media/LOGO_F2F_CON_FECHA.070adf3a869a244f6d60.png",
+    "static/media/OPENSANS-BOLD.TTF": "/f2f_landing_page/static/media/OPENSANS-BOLD.043771c999cd4d47d9f3.TTF",
+    "static/media/OPENSANS-LIGHT.TTF": "/f2f_landing_page/static/media/OPENSANS-LIGHT.3d5923f94fc319b5652a.TTF",
+    "static/media/OpenSans-Semibold.ttf": "/f2f_landing_page/static/media/OpenSans-Semibold.029b9bc9d72f4d799803.ttf",
+    "static/media/OpenSans-CondensedLight.ttf": "/f2f_landing_page/static/media/OpenSans-CondensedLight.3146149b4a13c79fc740.ttf",
+    "static/media/OpenSans-Regular_0.ttf": "/f2f_landing_page/static/media/OpenSans-Regular_0.17e98b9e5586529b13cc.ttf",
+    "static/media/OPENSANS-EXTRABOLDITALIC.TTF": "/f2f_landing_page/static/media/OPENSANS-EXTRABOLDITALIC.834e159ebdb3097d4619.TTF",
+    "static/media/OPENSANS-BOLDITALIC.TTF": "/f2f_landing_page/static/media/OPENSANS-BOLDITALIC.1c9d53ac65b20d03c4d0.TTF",
+    "static/media/OPENSANSLIGHT-ITALIC.TTF": "/f2f_landing_page/static/media/OPENSANSLIGHT-ITALIC.4f712f17699ad7802828.TTF",
+    "static/media/OpenSans-CondensedLightItalic.ttf": "/f2f_landing_page/static/media/OpenSans-CondensedLightItalic.2ad1efb22d305da64da9.ttf",
+    "static/media/Nunito Extra Bold Italic_2971.ttf": "/f2f_landing_page/static/media/Nunito Extra Bold Italic_2971.41932364384c71081cc1.ttf",
+    "static/media/Nunito Black Italic_2973.ttf": "/f2f_landing_page/static/media/Nunito Black Italic_2973.5746c7f6d6d5e1433887.ttf",
+    "static/media/Nunito Bold Italic_2969.ttf": "/f2f_landing_page/static/media/Nunito Bold Italic_2969.62888b616589385ee752.ttf",
+    "static/media/Nunito Extra Bold_2970.ttf": "/f2f_landing_page/static/media/Nunito Extra Bold_2970.e2978b0fea8c866cb940.ttf",
+    "static/media/Nunito Bold_2968.ttf": "/f2f_landing_page/static/media/Nunito Bold_2968.7ddd6722d49bf5270cf1.ttf",
+    "static/media/OpenSans-Italic.ttf": "/f2f_landing_page/static/media/OpenSans-Italic.ac4a9433780d509b4da4.ttf",
+    "static/media/11492-fontps.ttf": "/f2f_landing_page/static/media/11492-fontps.d5b67ca1be6b639bf442.ttf",
+    "static/media/banner solo.png": "/f2f_landing_page/static/media/banner solo.04943dc63e78fd5b6280.png",
     "index.html": "/f2f_landing_page/index.html",
-    "main.096dbbd1.css.map": "/f2f_landing_page/static/css/main.096dbbd1.css.map",
-    "main.e26ad8a5.js.map": "/f2f_landing_page/static/js/main.e26ad8a5.js.map"
+    "main.c5067ef1.css.map": "/f2f_landing_page/static/css/main.c5067ef1.css.map",
+    "main.a7a9e1a9.js.map": "/f2f_landing_page/static/js/main.a7a9e1a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.096dbbd1.css",
-    "static/js/main.e26ad8a5.js"
+    "static/css/main.c5067ef1.css",
+    "static/js/main.a7a9e1a9.js"
   ]
 }
