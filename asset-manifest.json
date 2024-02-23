@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/f2f_landing_page/static/css/main.ff9e4434.css",
-    "main.js": "/f2f_landing_page/static/js/main.969123ca.js",
+    "main.css": "/f2f_landing_page/static/css/main.4e30c61d.css",
+    "main.js": "/f2f_landing_page/static/js/main.2b5dda38.js",
     "static/media/FONDOS-BANNERS-SURGICAL.png": "/f2f_landing_page/static/media/FONDOS-BANNERS-SURGICAL.c7e67d8eeebabecf3e87.png",
     "static/media/FONDOS-BANNERS-VC.png": "/f2f_landing_page/static/media/FONDOS-BANNERS-VC.adda8140c6cfe49af851.png",
     "static/media/fondo-agenda-sur.png": "/f2f_landing_page/static/media/fondo-agenda-sur.03515fb3f024e8677be7.png",
@@ -24,14 +24,15 @@
     "static/media/Nunito Bold_2968.ttf": "/f2f_landing_page/static/media/Nunito Bold_2968.7ddd6722d49bf5270cf1.ttf",
     "static/media/agenda-test.png": "/f2f_landing_page/static/media/agenda-test.97c084ad5a60997c5502.png",
     "static/media/OpenSans-Italic.ttf": "/f2f_landing_page/static/media/OpenSans-Italic.ac4a9433780d509b4da4.ttf",
+    "static/media/GUANTES MORADO.png": "/f2f_landing_page/static/media/GUANTES MORADO.fe1eeec08c6f11dca5a7.png",
     "static/media/11492-fontps.ttf": "/f2f_landing_page/static/media/11492-fontps.d5b67ca1be6b639bf442.ttf",
     "static/media/banner solo.png": "/f2f_landing_page/static/media/banner solo.04943dc63e78fd5b6280.png",
     "index.html": "/f2f_landing_page/index.html",
-    "main.ff9e4434.css.map": "/f2f_landing_page/static/css/main.ff9e4434.css.map",
-    "main.969123ca.js.map": "/f2f_landing_page/static/js/main.969123ca.js.map"
+    "main.4e30c61d.css.map": "/f2f_landing_page/static/css/main.4e30c61d.css.map",
+    "main.2b5dda38.js.map": "/f2f_landing_page/static/js/main.2b5dda38.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff9e4434.css",
-    "static/js/main.969123ca.js"
+    "static/css/main.4e30c61d.css",
+    "static/js/main.2b5dda38.js"
   ]
 }
