@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom"
 import categoryItems from "../../data/category"
 import { useEffect, useState } from "react"
 
-const ListCategory = () => {
+const ListCategory = ({setCategory,categorySelected}) => {
 
     const [tableItems, setItems] = useState(null)
     const [tableVisible, setTableVisible] = useState(false)
@@ -19,10 +19,10 @@ const ListCategory = () => {
                 }
             }).map((item, key) => {
                 return (
-                    <tr key={key}>
+                    <tr key={key + item.name}>
                         <th>{item.fecha}</th>
                         <th>{item.hora}</th>
-                        <th>{item.name}</th>
+                        <th><span className="item-selectable" onClick={selectCategory}>{item.name}</span></th>
                     </tr>
                 )
             })
@@ -34,10 +34,10 @@ const ListCategory = () => {
                 }
             }).map((item, key) => {
                 return (
-                    <tr>
+                    <tr key={key + item.name}>
                         <th>{item.fecha}</th>
                         <th>{item.hora}</th>
-                        <th>{item.name}</th>
+                        <th><span className="item-selectable" onClick={selectCategory}>{item.name}</span></th>
                     </tr>
                 )
             })
@@ -45,14 +45,18 @@ const ListCategory = () => {
         }
     }
 
-    const changeVisible = (e) => {
-        e.preventDefault()
+    const selectCategory = (e) => {
+        setCategory(e)
+        changeVisible()
+    }
+
+    const changeVisible = () => {
         setTableVisible(prev => !prev)
     }
 
     useEffect(() => {
         setItems(generateItemList(categoryItems))
-    }, [categoryItems])
+    }, [categoryItems,setCategory])
 
     return (
         <div className="list-category-container">
@@ -60,7 +64,10 @@ const ListCategory = () => {
                 <span className="list-category text-button">
                     Categoria
                 </span>
+                <div className="list-category-select-container">
+                {categorySelected}
                 <img onClick={changeVisible} src={arrow_down} alt="Despliegue de categorias" className={`list-category img-button ${tableVisible ? "visible" : ""}`} />
+                </div>
             </div>
             <table className={`list-category table ${tableVisible ? "visible" : ""}`}>
                 <thead>

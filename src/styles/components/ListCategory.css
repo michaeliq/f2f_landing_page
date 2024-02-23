@@ -12,6 +12,16 @@
     position: relative;
 }
 
+.list-category-select-container{
+    display: flex;
+    column-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color:#003595;
+    font-family: "Nunito Black";
+}
+
 .list-category.img-button {
     width: 80px;
     height: 80px;
@@ -56,4 +66,8 @@
     background-color: #fff;
     font-size: 1.5rem;
     height: 4rem;
+}
+
+.item-selectable{
+    cursor: pointer;
 }

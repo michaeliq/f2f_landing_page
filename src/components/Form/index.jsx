@@ -5,6 +5,21 @@ import ListCategory from "./ListCategory"
 const FormCompatitor = () => {
 
     const [check,setStatusCheck] = useState(false)
+    const [compatitorData, setCompatitorData] = useState({})
+
+    const setDataForm = (e) => {
+        setCompatitorData(prev =>{
+            let dato = {}
+            dato[e.target.label] = e.target.value
+            return {prev,dato}
+        })
+    }
+
+    const setCategoryForm = (e) => {
+        setCompatitorData(prev => {
+            return {...prev,category:e.target.innerText}
+        })
+    }
 
     return (
         <>
@@ -14,52 +29,52 @@ const FormCompatitor = () => {
                         <label htmlFor="fullname1">
                             Nombre y Apellido:
                         </label>
-                        <input type="text" id="fullname1" name="fullname1" />
+                        <input value={compatitorData?.fullname1} onChange={setDataForm} type="text" id="fullname1" name="fullname1" />
                     </div>
                     <div className="form-compatitor content-input">
                         <label htmlFor="fullname1">
                             Nombre y Apellido:
                         </label>
-                        <input type="text" id="fullname2" name="fullname2" />
+                        <input value={compatitorData?.fullname2} onChange={setDataForm} type="text" id="fullname2" name="fullname2" />
                     </div>
                     <div className="form-compatitor content-input">
                         <label htmlFor="movil1">
                             Movil:
                         </label>
-                        <input type="number" id="movil1" name="movil1" />
+                        <input value={compatitorData?.movil1} onChange={setDataForm} type="number" id="movil1" name="movil1" />
                     </div>
                     <div className="form-compatitor content-input">
                         <label htmlFor="movil2">
                             Movil:
                         </label>
-                        <input type="number" id="movil2" name="movil2" />
+                        <input value={compatitorData?.movil2} onChange={setDataForm} type="number" id="movil2" name="movil2" />
                     </div>
                     <div className="form-compatitor content-input">
                         <label htmlFor="email1">
                             Email:
                         </label>
-                        <input type="text" id="email1" name="email1" />
+                        <input value={compatitorData?.email1} onChange={setDataForm} type="text" id="email1" name="email1" />
                     </div>
                     <div className="form-compatitor content-input">
                         <label htmlFor="fullname2">
                             Email:
                         </label>
-                        <input type="text" id="email2" name="email2" />
+                        <input value={compatitorData?.email2} onChange={setDataForm} type="text" id="email2" name="email2" />
                     </div>
                     <div className="form-compatitor content-input">
                         <label htmlFor="city1">
                             Ciudad de origen:
                         </label>
-                        <input type="text" id="city1" name="city1" />
+                        <input value={compatitorData?.city1} onChange={setDataForm} type="text" id="city1" name="city1" />
                     </div>
                     <div className="form-compatitor content-input">
                         <label htmlFor="city2">
                             Ciudad de origen:
                         </label>
-                        <input type="text" id="email2" name="email2" />
+                        <input value={compatitorData?.city2} onChange={setDataForm} type="text" id="email2" name="email2" />
                     </div>
                 </div>
-                <ListCategory />
+                <ListCategory setCategory={setCategoryForm} categorySelected={compatitorData?.category} />
                 <div className="form-compatitor content-input">
                     <input type="submit" disabled={check ? false:true}  id="send-button" className={`form-compatitor send-button ${check === true ? "enable":"disable"}`} value="Enviar"/>
                 </div>
