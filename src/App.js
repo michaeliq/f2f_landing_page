@@ -9,7 +9,7 @@ function App() {
       <Router>
 
         <Routes>
-        <Route exact path="/" element={<Navigate to="vision-care" />}>
+        <Route exact path="/" element={<Navigate to="surgical" />}>
           </Route>
           <Route path="surgical" element={<SurgicalPage />}>
           </Route>

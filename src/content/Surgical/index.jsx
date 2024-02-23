@@ -10,6 +10,7 @@ import FormCompatitor from "../../components/Form"
 
 import "../../styles/content/Surgical/CalendarSection.css"
 import agenda_test from "../../images/agenda-test.png"
+import Carousel from "../../components/Carousel"
 const SurgicalPage = () => {
 
     return (
@@ -46,6 +47,7 @@ const SurgicalPage = () => {
                 <h3 className="calendar-subtitle">
                     - Simposio Facocaribe -
                 </h3>
+                <Carousel />
                 <div className="calendar-sur content">
                     <img src={agenda_test} alt="Test agenda" className="calendar-vc test-img-agenda" />
                 </div>
