@@ -54,7 +54,7 @@ const Nav = () => {
                 </Link>
                 <Link to={currentPath === "/surgical" ? "/surgical#calendar-sur":"/vision-care#calendar-vc"} className="navbar-link-item">
                     <BoxItemNav>
-                        <li>Agenda {currentPath === "/vision-care" ? "Vision Care":"Surgical"}</li>
+                        <li>{currentPath === "/vision-care" ? "Vision Care":"Surgical"}</li>
                     </BoxItemNav>
                 </Link>
                 <Link to={selectedURL} className="navbar-link-item">
