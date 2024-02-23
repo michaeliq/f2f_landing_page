@@ -1,10 +1,14 @@
+import { useState } from "react"
 import "../../styles/components/FormCompatitor.css"
+import ListCategory from "./ListCategory"
 
 const FormCompatitor = () => {
 
+    const [check,setStatusCheck] = useState(false)
+
     return (
         <>
-            <form className="form-compatitor-container">
+            <form onSubmit={()=>console.log("aqui")} className="form-compatitor-container">
                 <div className="form-compatitor">
                     <div className="form-compatitor content-input">
                         <label htmlFor="fullname1">
@@ -44,34 +48,27 @@ const FormCompatitor = () => {
                     </div>
                     <div className="form-compatitor content-input">
                         <label htmlFor="city1">
-                            Ciudad:
+                            Ciudad de origen:
                         </label>
                         <input type="text" id="city1" name="city1" />
                     </div>
                     <div className="form-compatitor content-input">
                         <label htmlFor="city2">
-                            Ciudad:
+                            Ciudad de origen:
                         </label>
                         <input type="text" id="email2" name="email2" />
                     </div>
                 </div>
+                <ListCategory />
                 <div className="form-compatitor content-input">
-                    <label htmlFor="category">
-                        Categoria
-                    </label>
-                    <input type="text" id="category" name="category" placeholder="" />
-                </div>
-                <div className="form-compatitor content-input">
-                    <button>
-                        Enviar
-                    </button>
+                    <input type="submit" disabled={check ? false:true}  id="send-button" className={`form-compatitor send-button ${check === true ? "enable":"disable"}`} value="Enviar"/>
                 </div>
             </form>
             <p className="form-section disclaimer">
                 Al llenar este formulario de regristro, autorizo a LABORATORIOS ALCON DE COLOMBIA S.A. a almacenar en un servidor extranjero, tratar y transferir a terceros los datos personales que he diligenciado. LABORATORIOS ALCON DE COLOMBIA S.A. le informa que sus datos personales se almacenan en nuestra base de datos, con el fin de tener registro de los asistentes a nuestros eventos. De igual forma, autorizo a LABORATORIOS ALCON DE COLOMBIA S.A. para que durante el evento en el que he participado, grabe, utilice, muestre, comparta, reproduzca, publique, y distribuya la eventual grabación que se haga en el evento.
             </p>
             <div className="form-section container-checkbox">
-                <input className="form-section valid_disclaimer" type="checkbox" name="" id="" />
+                <input value={check} onChange={()=>setStatusCheck(prev => !prev)} className="form-section valid_disclaimer" type="checkbox" name="" id="" />
                 <p className="form-section text_checkbox">Acepto</p>
             </div>
         </>

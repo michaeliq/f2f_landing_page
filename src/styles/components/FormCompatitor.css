@@ -7,14 +7,14 @@ form.form-compatitor-container {
     display: grid;
     grid-template-columns: 1fr;
     overflow: hidden;
+    position: relative;
 }
 
 div.form-compatitor{
-    width: 100%;
+    position: relative;
     background-color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    overflow: hidden;
 }
 
 div.form-compatitor.content-input {
@@ -23,6 +23,7 @@ div.form-compatitor.content-input {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    position: relative;
 }
 
 div.form-compatitor.content-input>label {
@@ -49,7 +50,7 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-div.form-compatitor.content-input >button{
+#send-button{
     padding: .5rem .7rem;
     border-radius: 5vw;
     width: 15vw;
@@ -58,8 +59,17 @@ div.form-compatitor.content-input >button{
     font-size: 2rem;
     font-family: "Nunito Black";
     font-weight: bolder;
-    color: #3ec1f2;
     margin: 1rem auto .2rem auto;
+    cursor: pointer;
+}
+
+#send-button.enable{
+    color: #3ec1f2;
+}
+
+#send-button.disable{
+    color: #888;
+    cursor: not-allowed;
 }
 
 .form-section.disclaimer{
