@@ -31,36 +31,21 @@ const FormCompatitor = () => {
                         </label>
                         <input value={compatitorData?.fullname1} onChange={setDataForm} type="text" id="fullname1" name="fullname1" />
                     </div>
-                    <div className="form-compatitor content-input">
-                        <label htmlFor="fullname1">
-                            Nombre y Apellido:
-                        </label>
-                        <input value={compatitorData?.fullname2} onChange={setDataForm} type="text" id="fullname2" name="fullname2" />
-                    </div>
+                    
                     <div className="form-compatitor content-input">
                         <label htmlFor="movil1">
                             Movil:
                         </label>
                         <input value={compatitorData?.movil1} onChange={setDataForm} type="number" id="movil1" name="movil1" />
                     </div>
-                    <div className="form-compatitor content-input">
-                        <label htmlFor="movil2">
-                            Movil:
-                        </label>
-                        <input value={compatitorData?.movil2} onChange={setDataForm} type="number" id="movil2" name="movil2" />
-                    </div>
+
                     <div className="form-compatitor content-input">
                         <label htmlFor="email1">
                             Email:
                         </label>
                         <input value={compatitorData?.email1} onChange={setDataForm} type="text" id="email1" name="email1" />
                     </div>
-                    <div className="form-compatitor content-input">
-                        <label htmlFor="fullname2">
-                            Email:
-                        </label>
-                        <input value={compatitorData?.email2} onChange={setDataForm} type="text" id="email2" name="email2" />
-                    </div>
+
                     <div className="form-compatitor content-input">
                         <label htmlFor="city1">
                             Ciudad de origen:
@@ -68,10 +53,10 @@ const FormCompatitor = () => {
                         <input value={compatitorData?.city1} onChange={setDataForm} type="text" id="city1" name="city1" />
                     </div>
                     <div className="form-compatitor content-input">
-                        <label htmlFor="city2">
-                            Ciudad de origen:
+                        <label htmlFor="fullname1">
+                            Compañero/a combate:
                         </label>
-                        <input value={compatitorData?.city2} onChange={setDataForm} type="text" id="email2" name="email2" />
+                        <input value={compatitorData?.fullname2} onChange={setDataForm} type="text" id="fullname2" name="fullname2" />
                     </div>
                 </div>
                 <ListCategory setCategory={setCategoryForm} categorySelected={compatitorData?.category} />
