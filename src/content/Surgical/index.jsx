@@ -11,6 +11,13 @@ import FormCompatitor from "../../components/Form"
 import "../../styles/content/Surgical/CalendarSection.css"
 import agenda_test from "../../images/agenda-test.png"
 import Carousel from "../../components/Carousel"
+
+import "../../styles/content/Surgical/VideoSection.css"
+import cloud_left from "../../images/cloud_left.png"
+import cloud_right from "../../images/cloud_right.png"
+
+import Footer from "../../components/Footer"
+
 const SurgicalPage = () => {
 
     return (
@@ -52,6 +59,31 @@ const SurgicalPage = () => {
                     <img src={agenda_test} alt="Test agenda" className="calendar-vc test-img-agenda" />
                 </div>
             </section>
+
+            <section className="video-sur">
+                <h2 className="video-sur title">
+                    COMITÉ CIENTÍFICO
+                </h2>
+                <div className="video-sur container">
+                    <div className="video-sur content-left">
+                        <img src={cloud_left} alt="Cloud left" className="video-sur cloud-img-left" />
+                        <video width="320" height="240" controls>
+                            <source src="https://youtu.be/ViotnARQIw4" type="video/mp4" />
+                            <source src="" type="video/ogg" />
+                            El navegador no soporta la etiqueta de video
+                        </video>
+                    </div>
+                    <div className="video-sur content-right">
+                        <img src={cloud_right} alt="Cloud right" className="video-sur cloud-img-right" />
+                        <video width="320" height="240" controls>
+                            <source src="" type="video/mp4" />
+                            <source src="" type="video/ogg" />
+                            El navegador no soporta la etiqueta de video
+                        </video>
+                    </div>
+                </div>
+            </section>
+            <Footer />
         </MainLayout>
     )
 }

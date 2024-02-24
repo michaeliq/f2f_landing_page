@@ -1,0 +1,65 @@
+section.video-sur{
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    height: 100vh;
+}
+
+h2.video-sur.title{
+    font-family: "Fontps";
+    color: #000;
+    text-shadow: 2px 2px #0c6893, -2px -2px #0c6893;
+    font-size: 5rem;
+    letter-spacing: 3px;
+}
+
+div.video-sur.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+}
+
+div.video-sur.content-left{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+div.video-sur.content-left > video{
+    width: 600px;
+    height: 550px;
+    border-radius: 25px;
+    border: 6px solid #000;
+    position: relative;
+    z-index: 10;
+}
+
+div.video-sur.content-left > img.video-sur.cloud-img-left{
+    position: absolute;
+    top:-50%;
+    left: 0;
+    z-index: 1;
+}
+
+div.video-sur.content-right{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+div.video-sur.content-right > img.video-sur.cloud-img-right{
+    position: absolute;
+    z-index: 11;
+    bottom: -44%;
+    transform: rotateY(180deg) scale(.8);
+}
+
+div.video-sur.content-right > video{
+    width: 600px;
+    height: 550px;
+    border-radius: 25px;
+    border: 6px solid #000;
+    position: relative;
+    z-index: 10;
+}
