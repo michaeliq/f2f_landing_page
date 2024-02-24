@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/f2f_landing_page/static/css/main.dc070fbf.css",
-    "main.js": "/f2f_landing_page/static/js/main.ee49deb0.js",
+    "main.css": "/f2f_landing_page/static/css/main.4f91dd95.css",
+    "main.js": "/f2f_landing_page/static/js/main.abef198e.js",
     "static/media/FONDOS-BANNERS-SURGICAL.png": "/f2f_landing_page/static/media/FONDOS-BANNERS-SURGICAL.c7e67d8eeebabecf3e87.png",
     "static/media/FONDOS-BANNERS-VC.png": "/f2f_landing_page/static/media/FONDOS-BANNERS-VC.adda8140c6cfe49af851.png",
     "static/media/fondo-agenda-sur.png": "/f2f_landing_page/static/media/fondo-agenda-sur.03515fb3f024e8677be7.png",
@@ -23,16 +23,19 @@
     "static/media/Nunito Extra Bold_2970.ttf": "/f2f_landing_page/static/media/Nunito Extra Bold_2970.e2978b0fea8c866cb940.ttf",
     "static/media/Nunito Bold_2968.ttf": "/f2f_landing_page/static/media/Nunito Bold_2968.7ddd6722d49bf5270cf1.ttf",
     "static/media/agenda-test.png": "/f2f_landing_page/static/media/agenda-test.97c084ad5a60997c5502.png",
+    "static/media/footer.png": "/f2f_landing_page/static/media/footer.44a63416f1c5060c8145.png",
     "static/media/OpenSans-Italic.ttf": "/f2f_landing_page/static/media/OpenSans-Italic.ac4a9433780d509b4da4.ttf",
     "static/media/GUANTES MORADO.png": "/f2f_landing_page/static/media/GUANTES MORADO.fe1eeec08c6f11dca5a7.png",
+    "static/media/cloud_right.png": "/f2f_landing_page/static/media/cloud_right.ec2b2827a61d446409bb.png",
     "static/media/11492-fontps.ttf": "/f2f_landing_page/static/media/11492-fontps.d5b67ca1be6b639bf442.ttf",
+    "static/media/cloud_left.png": "/f2f_landing_page/static/media/cloud_left.a3034d74663c5bd252d6.png",
     "static/media/banner solo.png": "/f2f_landing_page/static/media/banner solo.04943dc63e78fd5b6280.png",
     "index.html": "/f2f_landing_page/index.html",
-    "main.dc070fbf.css.map": "/f2f_landing_page/static/css/main.dc070fbf.css.map",
-    "main.ee49deb0.js.map": "/f2f_landing_page/static/js/main.ee49deb0.js.map"
+    "main.4f91dd95.css.map": "/f2f_landing_page/static/css/main.4f91dd95.css.map",
+    "main.abef198e.js.map": "/f2f_landing_page/static/js/main.abef198e.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc070fbf.css",
-    "static/js/main.ee49deb0.js"
+    "static/css/main.4f91dd95.css",
+    "static/js/main.abef198e.js"
   ]
 }
