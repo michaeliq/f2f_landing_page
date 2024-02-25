@@ -10,6 +10,7 @@ import FormCompatitor from "../../components/Form"
 
 import "../../styles/content/Vision/CalendarSection.css"
 import agenda_test from "../../images/agenda-test.png"
+import Carousel from "../../components/Carousel"
 
 import "../../styles/content/Vision/VideoSection.css"
 import cloud_left from "../../images/cloud_left.png"
@@ -51,8 +52,9 @@ const VisionCarePage = () => {
                     Agenda Optometría
                 </h2>
                 <h3 className="calendar-subtitle">
-                    - Simposio Facocaribe -
+                    - Simposio Facocaribe - 
                 </h3>
+                <Carousel />
                 <div className="calendar-vc content">
                     <img src={agenda_test} alt="Test agenda" className="calendar-vc test-img-agenda" />
                 </div>
@@ -72,12 +74,12 @@ const VisionCarePage = () => {
                         </video>
                     </div>
                     <div className="video-vc content-right">
-                        <img src={cloud_right} alt="Cloud right" className="video-vc cloud-img-right" />
                         <video width="320" height="240" controls>
                             <source src="" type="video/mp4" />
                             <source src="" type="video/ogg" />
                             El navegador no soporta la etiqueta de video
                         </video>
+                        <img src={cloud_right} alt="Cloud right" className="video-vc cloud-img-right" />
                     </div>
                 </div>
             </section>

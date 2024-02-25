@@ -18,3 +18,22 @@ img.footer-img-facocaribe{
     right: 5rem;
     bottom: 4.3vw;
 }
+
+@media only screen and (max-width:1024px) {
+    img.footer-img-facocaribe{
+        position: absolute;
+        bottom: 4.3vw;
+        left: 5vw;
+        width: 25vw;
+        height: auto;
+
+    }
+
+    .footer-img-alcon{
+        position: absolute;
+        right: 5vw;
+        bottom: 4.3vw;
+        width: 13vw;
+        height: auto;
+    }
+}

@@ -74,12 +74,12 @@ const SurgicalPage = () => {
                         </video>
                     </div>
                     <div className="video-sur content-right">
-                        <img src={cloud_right} alt="Cloud right" className="video-sur cloud-img-right" />
                         <video width="320" height="240" controls>
                             <source src="" type="video/mp4" />
                             <source src="" type="video/ogg" />
                             El navegador no soporta la etiqueta de video
                         </video>
+                        <img src={cloud_right} alt="Cloud right" className="video-sur cloud-img-right" />
                     </div>
                 </div>
             </section>

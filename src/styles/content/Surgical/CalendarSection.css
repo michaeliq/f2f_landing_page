@@ -1,4 +1,4 @@
-section.calendar-sur{
+section.calendar-sur {
     background-image: url("/src/images/fondo-agenda-sur.png");
     position: relative;
     min-height: 100vh;
@@ -9,17 +9,17 @@ section.calendar-sur{
     border-bottom: 10px solid #000;
 }
 
-.calendar-sur > h2.calendar-title{
+.calendar-sur>h2.calendar-title {
     margin-top: 5vw;
     -webkit-text-stroke: 4px #661d76;
     text-shadow: 2px 2px #661d76, -2px -2px #661d76;
     color: #fff;
     font-size: 5rem;
     font-family: "Nunito Black";
-    
+
 }
 
-.calendar-sur > h3.calendar-subtitle{
+.calendar-sur>h3.calendar-subtitle {
     font-family: "Fontps";
     color: #fff;
     font-size: 5rem;
@@ -27,7 +27,7 @@ section.calendar-sur{
     margin: .2rem auto;
 }
 
-.calendar-sur.content{
+.calendar-sur.content {
     width: 80%;
     height: auto;
     margin: 1rem auto;
@@ -35,18 +35,20 @@ section.calendar-sur{
 
 }
 
-.calendar-sur.test-img-agenda{
+.calendar-sur.test-img-agenda {
     width: 100%;
     height: auto;
 }
 
-@media only screen and (max-width:1024px){
-    .calendar-sur > h2.calendar-title{
-        font-size: 2.5rem;
-        margin-top: 2.5rem;
+@media only screen and (max-width:1024px) {
+    .calendar-sur>h2.calendar-title {
+        font-size: 2rem;
+        margin-top: 1.8rem;
+        -webkit-text-stroke: 1px #661d76;
+        text-shadow: 1px 1px #661d76, -1px -1px #661d76;
     }
 
-    .calendar-sur > h3.calendar-subtitle{
+    .calendar-sur>h3.calendar-subtitle {
         font-family: "Fontps";
         font-size: 1.8rem;
         margin: .2rem auto;

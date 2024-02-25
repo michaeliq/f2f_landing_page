@@ -104,5 +104,58 @@ input::-webkit-inner-spin-button {
 }
 
 @media only screen and (max-width:1024px) {
+    form.form-compatitor-container {
+        margin: 2rem auto;
+    }
+
+    div.form-compatitor.content-input {
+        width: 100%;
+        border: 3px solid #000;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    div.form-compatitor.content-input>label {
+        font-family: "Nunito Black";
+        color: #003595;
+        font-size: 1.3rem;
+    }
     
+    div.form-compatitor.content-input>input {
+        font-family: "Nunito Black";
+        color: #333;
+        font-size: 1.5rem;
+        border: none;
+        margin-left: 0;
+    }
+
+    #send-button{
+        padding: .5rem .7rem;
+        border-radius: 5vw;
+        width: auto;
+        background-color: #fff;
+        border: 5px solid #000;
+        font-size: 1.2rem;
+        font-family: "Nunito Black";
+        font-weight: bolder;
+        margin: 1rem auto;
+        cursor: pointer;
+    }
+
+    .form-section.disclaimer{
+        color: #fff;
+        font-family: "OpenSans";
+        font-weight: lighter;
+        padding: 0 2rem;
+        font-size: .7rem;
+        text-align: justify;
+    }
+
+    .form-section.container-checkbox{
+        margin-bottom: 2rem;
+    }
 }
