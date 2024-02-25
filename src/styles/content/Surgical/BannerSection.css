@@ -13,13 +13,13 @@
     top: 0;
 }
 
-.banner-main.logo {
+.banner-section-sur .banner-main.logo {
     width: 60vw;
     margin-top: 3rem;
     height: auto;
 }
 
-h1.banner-main.title {
+.banner-section-sur > h1.banner-main.title {
     font-family: "Fontps";
     color: #fff;
     font-size: 5.5rem;
@@ -50,7 +50,7 @@ h1.banner-main.title {
     letter-spacing: 3px;
 }
 
-.banner-main-link {
+.banner-section-sur a.banner-main-link {
     color:#fff;
     font-size: 5vw;
     text-align: center;
@@ -61,4 +61,50 @@ h1.banner-main.title {
     text-shadow: 2px 2px #0c6893, -2px -2px #0c6893;
     letter-spacing: 3px;
     text-decoration: none;
+}
+
+@media only screen and (max-width:1024px) {
+
+    .banner-section-sur{
+        width: 100vw;
+        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .banner-section-sur .banner-main.logo {
+        width: 70vw;
+        margin-top: 3rem;
+        height: auto;
+    }
+
+    .banner-section-sur > h1.banner-main.title{
+        font-size: 3rem ;
+        left: 1vw;
+        display: block;
+        top:-3rem;
+    }
+
+    .banner-main.info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items:first baseline;
+        justify-content: center;
+        padding: 3rem 3rem;
+        column-gap: 4rem;
+    }
+
+    .banner-section-sur .banner-main-info1 {
+        color:#fff;
+        font-size: 2vw;
+        justify-self: center;
+    }
+
+    .banner-section-sur a.banner-main-link {
+        color:#fff;
+        font-size: 4vw;
+        justify-self: center;
+    }
 }

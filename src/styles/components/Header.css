@@ -19,3 +19,16 @@
   height: 100%;
   z-index: -1;
 }
+
+@media (max-width:1024px) {
+
+  .header{
+    background: linear-gradient(90deg, rgba(0,60,154,1) 0%, rgba(0,123,201,1) 15%, rgba(0,170,236,1) 100%);
+    height: 80px;
+    border-bottom: 5px solid #000;
+  }
+
+  .header > .banner-header{
+    display: none;
+  }
+}

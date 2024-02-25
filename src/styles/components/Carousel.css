@@ -70,3 +70,28 @@
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
+
+@media only screen and (max-width:1024px)  {
+.carousel-images.vs-img{
+        width: 300px;
+        height: auto;
+    }
+
+    .arrow-left, .arrow-right {
+        width: 80px;
+        height: auto;
+    }
+
+    .circle{
+        width: 270px;
+        height: auto;
+        margin: 0 auto;
+        padding-right: 3.5rem;
+    }
+    .circle2{
+        width: 270px;
+        height: auto;
+        margin: 0 auto;
+        padding-right: 3.5rem;
+    }
+}

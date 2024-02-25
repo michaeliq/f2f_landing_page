@@ -1,4 +1,4 @@
-.form-section-sur{
+.form-section-sur {
     background-image: url("/src/images/fondo-formularios.png");
     background-size: cover;
     width: 100%;
@@ -6,7 +6,7 @@
     position: relative;
 }
 
-.line-divider{
+.line-divider {
     position: absolute;
     top: -15px;
     left: 0;
@@ -15,7 +15,7 @@
     background-color: #000;
 }
 
-.form-section.title{
+.form-section.title {
     font-family: "Fontps";
     color: #fff;
     text-shadow: 9px 9px #000;
@@ -25,7 +25,7 @@
     margin: 3rem 0 1rem 0;
 }
 
-.form-section.subtitle{
+.form-section.subtitle {
     font-family: "Nunito Black";
     color: #fff;
     text-shadow: 5px 5px #000;
@@ -33,3 +33,19 @@
     margin: 0 auto;
 }
 
+@media (max-width:1024px) {
+    .form-section.title {
+        font-size: 2rem !important;
+        text-shadow: 3px 3px #000 !important;
+        padding: 1rem 1rem 0 1rem !important;
+        line-height: 2.7rem !important;
+        margin: 3rem 0 1rem 0 !important;
+    }
+
+    .form-section.subtitle {
+        text-shadow: 3px 3px #000 !important;
+        padding: 1rem 1rem 0 1rem !important;
+        font-size: 2rem !important;
+        margin: 0 auto !important;
+    }
+}

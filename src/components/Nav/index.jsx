@@ -2,11 +2,14 @@ import { useEffect, useState } from "react"
 import "../../styles/components/Nav.css"
 import { Link, useLocation } from "react-router-dom"
 import BoxItemNav from "../../molecules/BoxItemNav"
+import { IoMdMenu } from "react-icons/io";
+import { IoMdClose } from "react-icons/io";
 
 const Nav = () => {
 
     const [selectedPage, setPage] = useState("")
     const [selectedURL, setURL] = useState("")
+    const [menuActive, setMenuState] = useState(false)
     const {pathname, hash, key} = useLocation()
 
     const currentPath = pathname
@@ -46,7 +49,12 @@ const Nav = () => {
 
     return (
         <div className="navbar">
-            <ul className="navbar-link-container">
+            <div className="navbar-movil">
+                <span>Alcon</span>
+                {!menuActive ? <IoMdMenu onClick={() =>setMenuState(prev => !prev)} /> :
+                <IoMdClose onClick={() =>setMenuState(prev => !prev)} />}
+            </div>
+            <ul className={`navbar-link-container ${menuActive ? "active":""}`}>
                 <Link to={currentPath === "/surgical" ? "/surgical#form-section-sur":"/vision-care#form-section-vc"} className="navbar-link-item">
                     <BoxItemNav>
                         <li>Inscribase en el Ring</li>
