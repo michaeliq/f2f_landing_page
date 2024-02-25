@@ -49,7 +49,7 @@ const SurgicalPage = () => {
 
             <section id="calendar-sur" className="calendar-sur">
                 <h2 className="calendar-title">
-                    Agenda Optometría
+                    Agenda Oftalmología
                 </h2>
                 <h3 className="calendar-subtitle">
                     - Simposio Facocaribe -

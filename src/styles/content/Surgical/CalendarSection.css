@@ -11,8 +11,8 @@ section.calendar-sur {
 
 .calendar-sur>h2.calendar-title {
     margin-top: 5vw;
-    -webkit-text-stroke: 4px #661d76;
-    text-shadow: 2px 2px #661d76, -2px -2px #661d76;
+    -webkit-text-stroke: 4px #0c6893;
+    text-shadow: 2px 2px #0c6893, -2px -2px #0c6893;
     color: #fff;
     font-size: 5rem;
     font-family: "Nunito Black";
@@ -44,13 +44,13 @@ section.calendar-sur {
     .calendar-sur>h2.calendar-title {
         font-size: 2rem;
         margin-top: 1.8rem;
-        -webkit-text-stroke: 1px #661d76;
-        text-shadow: 1px 1px #661d76, -1px -1px #661d76;
+        -webkit-text-stroke: 1px #0c6893;
+        text-shadow: 1px 1px #0c6893, -1px -1px #0c6893;
     }
 
     .calendar-sur>h3.calendar-subtitle {
         font-family: "Fontps";
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         margin: .2rem auto;
     }
 }
