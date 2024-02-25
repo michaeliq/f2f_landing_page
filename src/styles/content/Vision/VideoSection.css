@@ -51,8 +51,7 @@ div.video-vc.content-right{
 
 div.video-vc.content-right > img.video-vc.cloud-img-right{
     position: absolute;
-    z-index: 11;
-    bottom: -47%;
+    bottom: -250px;
     transform: rotateY(180deg) scale(.8);
     left: 10vw;
 }
