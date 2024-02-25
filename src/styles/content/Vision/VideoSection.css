@@ -27,8 +27,9 @@ div.video-vc.content-left{
 }
 
 div.video-vc.content-left > video{
-    width: 600px;
-    height: 550px;
+    width: 50vw;
+    height: 50vh;
+    max-width: 600px;
     border-radius: 25px;
     border: 6px solid #000;
     position: relative;
@@ -51,14 +52,15 @@ div.video-vc.content-right{
 div.video-vc.content-right > img.video-vc.cloud-img-right{
     position: absolute;
     z-index: 11;
-    bottom: -44%;
+    bottom: -47%;
     transform: rotateY(180deg) scale(.8);
-    left: 0;
+    left: 10vw;
 }
 
 div.video-vc.content-right > video{
-    width: 600px;
-    height: 550px;
+    width: 50vw;
+    height: 50vh;
+    max-width: 600px;
     border-radius: 25px;
     border: 6px solid #000;
     position: relative;

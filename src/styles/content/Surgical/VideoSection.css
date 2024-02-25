@@ -27,8 +27,9 @@ div.video-sur.content-left{
 }
 
 div.video-sur.content-left > video{
-    width: 600px;
-    height: 550px;
+    width: 50vw;
+    height: 50vh;
+    max-width: 600px;
     border-radius: 25px;
     border: 6px solid #000;
     position: relative;
@@ -51,17 +52,19 @@ div.video-sur.content-right{
 div.video-sur.content-right > img.video-sur.cloud-img-right{
     position: absolute;
     z-index: 11;
-    bottom: -44%;
+    bottom: -47%;
     transform: rotateY(180deg) scale(.8);
+    left: 5vw;
 }
 
 div.video-sur.content-right > video{
-    width: 600px;
-    height: 550px;
+    width: 50vw;
+    height: 50vh;
+    max-width: 600px;
     border-radius: 25px;
     border: 6px solid #000;
     position: relative;
-    z-index: 10;
+    z-index: 1;
 }
 
 @media only screen and (max-width:1024px) {
@@ -118,7 +121,7 @@ div.video-sur.content-right > video{
 
     div.video-sur.content-right > img.video-sur.cloud-img-right{
         position: relative;
-        z-index: 11;
+        z-index: 1;
         transform: rotateY(180deg);
         height: auto;
         width: 180px;
