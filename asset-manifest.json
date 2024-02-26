@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/f2f_landing_page/static/css/main.e5487ac5.css",
+    "main.css": "/f2f_landing_page/static/css/main.d6cd7ab9.css",
     "main.js": "/f2f_landing_page/static/js/main.327efeee.js",
     "static/media/FONDOS-BANNERS-SURGICAL.png": "/f2f_landing_page/static/media/FONDOS-BANNERS-SURGICAL.c7e67d8eeebabecf3e87.png",
     "static/media/FONDOS-BANNERS-VC.png": "/f2f_landing_page/static/media/FONDOS-BANNERS-VC.adda8140c6cfe49af851.png",
@@ -31,11 +31,11 @@
     "static/media/cloud_left.png": "/f2f_landing_page/static/media/cloud_left.a3034d74663c5bd252d6.png",
     "static/media/banner solo.png": "/f2f_landing_page/static/media/banner solo.04943dc63e78fd5b6280.png",
     "index.html": "/f2f_landing_page/index.html",
-    "main.e5487ac5.css.map": "/f2f_landing_page/static/css/main.e5487ac5.css.map",
+    "main.d6cd7ab9.css.map": "/f2f_landing_page/static/css/main.d6cd7ab9.css.map",
     "main.327efeee.js.map": "/f2f_landing_page/static/js/main.327efeee.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5487ac5.css",
+    "static/css/main.d6cd7ab9.css",
     "static/js/main.327efeee.js"
   ]
 }
