@@ -33,3 +33,19 @@
     margin: 0 auto;
 }
 
+@media (max-width:1024px) {
+    .form-section.title {
+        font-size: 2rem !important;
+        text-shadow: 3px 3px #000 !important;
+        padding: 1rem 1rem 0 1rem !important;
+        line-height: 2.7rem !important;
+        margin: 4rem 0 2rem 0 !important;
+    }
+
+    .form-section.subtitle {
+        text-shadow: 3px 3px #000 !important;
+        padding: 1rem 1rem 0 1rem !important;
+        font-size: 2rem !important;
+        margin: 0 auto !important;
+    }
+}

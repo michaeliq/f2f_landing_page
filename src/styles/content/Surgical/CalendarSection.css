@@ -43,7 +43,7 @@ section.calendar-sur {
 @media only screen and (max-width:1024px) {
     .calendar-sur>h2.calendar-title {
         font-size: 2rem;
-        margin-top: 1.8rem;
+        margin-top: 8vw;
         -webkit-text-stroke: 1px #0c6893;
         text-shadow: 1px 1px #0c6893, -1px -1px #0c6893;
     }
