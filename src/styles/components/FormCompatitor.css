@@ -122,13 +122,13 @@ input::-webkit-inner-spin-button {
     div.form-compatitor.content-input>label {
         font-family: "Nunito Black";
         color: #003595;
-        font-size: 1.3rem;
+        font-size: 6vw;
     }
     
     div.form-compatitor.content-input>input {
         font-family: "Nunito Black";
         color: #333;
-        font-size: 1.5rem;
+        font-size: 5vw;
         border: none;
         margin-left: 0;
     }
@@ -151,7 +151,7 @@ input::-webkit-inner-spin-button {
         font-family: "OpenSans";
         font-weight: lighter;
         padding: 0 2rem;
-        font-size: .7rem;
+        font-size:3vw;
         text-align: justify;
     }
 
