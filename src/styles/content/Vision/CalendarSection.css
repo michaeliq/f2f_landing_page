@@ -41,8 +41,13 @@ section.calendar-vc{
 }
 
 @media only screen and (max-width:1024px) {
+    section.calendar-vc{
+        height: auto;
+        min-height: 0;
+    }
+
     .calendar-vc > h2.calendar-title {
-        font-size: 2rem;
+        font-size: 1.7rem;
         margin-top: 8vw;
         -webkit-text-stroke: 1px #661d76;
         text-shadow: 1px 1px #661d76, -1px -1px #661d76;
@@ -50,7 +55,7 @@ section.calendar-vc{
 
     .calendar-vc > h3.calendar-subtitle {
         font-family: "Fontps";
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin: .2rem auto;
     }
 }

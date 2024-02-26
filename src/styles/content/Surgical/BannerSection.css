@@ -67,7 +67,7 @@
 
     .banner-section-sur{
         width: 100vw;
-        min-height: 100vh;
+        min-height: calc(100vh - 80px);
         overflow-x: hidden;
         display: flex;
         justify-content: center;
