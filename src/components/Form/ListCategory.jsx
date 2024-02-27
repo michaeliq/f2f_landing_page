@@ -14,14 +14,16 @@ const ListCategory = ({setCategory,categorySelected}) => {
     const generateItemList = (category) => {
         if (pathname === "/vision-care") {
             const itemList = category.filter(item => {
+                let value = ""
                 if (item.page === "vision care") {
-                    return item
+                    value = item
                 }
+                return value
             }).map((item, key) => {
                 return (
                     <tr key={key + item.name}>
                         <th>{item.fecha}</th>
-                        <th>{item.hora}</th>
+                        <th>{item.horario}</th>
                         <th><span className="item-selectable" onClick={selectCategory}>{item.name}</span></th>
                     </tr>
                 )
@@ -29,14 +31,16 @@ const ListCategory = ({setCategory,categorySelected}) => {
             return itemList
         } else if (pathname === "/surgical") {
             const itemList = category.filter(item => {
+                let value = ""
                 if (item.page === "surgical") {
-                    return item
+                    value = item
                 }
+                return value
             }).map((item, key) => {
                 return (
                     <tr key={key + item.name}>
                         <th>{item.fecha}</th>
-                        <th>{item.hora}</th>
+                        <th>{item.horario}</th>
                         <th><span className="item-selectable" onClick={selectCategory}>{item.name}</span></th>
                     </tr>
                 )
