@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/f2f_landing_page/static/css/main.df67fb1f.css",
-    "main.js": "/f2f_landing_page/static/js/main.327efeee.js",
+    "main.css": "/f2f_landing_page/static/css/main.8951bd31.css",
+    "main.js": "/f2f_landing_page/static/js/main.6fcc70f9.js",
     "static/media/FONDOS-BANNERS-SURGICAL.png": "/f2f_landing_page/static/media/FONDOS-BANNERS-SURGICAL.c7e67d8eeebabecf3e87.png",
     "static/media/FONDOS-BANNERS-VC.png": "/f2f_landing_page/static/media/FONDOS-BANNERS-VC.adda8140c6cfe49af851.png",
     "static/media/fondo-agenda-sur.png": "/f2f_landing_page/static/media/fondo-agenda-sur.03515fb3f024e8677be7.png",
@@ -31,11 +31,11 @@
     "static/media/cloud_left.png": "/f2f_landing_page/static/media/cloud_left.a3034d74663c5bd252d6.png",
     "static/media/banner solo.png": "/f2f_landing_page/static/media/banner solo.04943dc63e78fd5b6280.png",
     "index.html": "/f2f_landing_page/index.html",
-    "main.df67fb1f.css.map": "/f2f_landing_page/static/css/main.df67fb1f.css.map",
-    "main.327efeee.js.map": "/f2f_landing_page/static/js/main.327efeee.js.map"
+    "main.8951bd31.css.map": "/f2f_landing_page/static/css/main.8951bd31.css.map",
+    "main.6fcc70f9.js.map": "/f2f_landing_page/static/js/main.6fcc70f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.df67fb1f.css",
-    "static/js/main.327efeee.js"
+    "static/css/main.8951bd31.css",
+    "static/js/main.6fcc70f9.js"
   ]
 }
