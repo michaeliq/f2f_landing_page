@@ -30,7 +30,7 @@ const FormCompatitor = () => {
     const handleSubmit = async (e) => {
         try {
             e.preventDefault()
-            const competitorRequest = await fetch("http://localhost:4501/api/user", {
+            const competitorRequest = await fetch("https://entorno.advancesas.co:4500/api/user", {
                 method: "POST",
                 body: JSON.stringify({
                     fullname: compatitorData.fullname1,
@@ -45,7 +45,7 @@ const FormCompatitor = () => {
                 }
             })
 
-            await fetch("http://localhost:4501/api/category", {
+            await fetch("https://entorno.advancesas.co:4500/api/category", {
                 method: "PUT",
                 body: JSON.stringify({
                     name: compatitorData.name,

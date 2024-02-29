@@ -13,7 +13,7 @@ const ListCategory = ({ setCategory, categorySelected }) => {
     const { pathname } = useLocation()
 
     const getCategories = async () => {
-        const categoryRequest = await fetch("http://localhost:4501/api/category", {
+        const categoryRequest = await fetch("https://entorno.advancesas.co:4500/api/category", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
