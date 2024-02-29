@@ -34,6 +34,7 @@ div.video-vc.content-left > video{
     border: 6px solid #000;
     position: relative;
     z-index: 10;
+    background-color: #000;
 }
 
 div.video-vc.content-left > img.video-vc.cloud-img-left{
@@ -64,6 +65,7 @@ div.video-vc.content-right > video{
     border: 6px solid #000;
     position: relative;
     z-index: 10;
+    background-color: #000;
 }
 
 @media only screen and (max-width:1024px) {

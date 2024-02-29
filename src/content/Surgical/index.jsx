@@ -9,12 +9,13 @@ import "../../styles/content/Surgical/FormSection.css"
 import FormCompatitor from "../../components/Form"
 
 import "../../styles/content/Surgical/CalendarSection.css"
-import agenda_test from "../../images/agenda-test.png"
 import Carousel from "../../components/Carousel"
 
 import "../../styles/content/Surgical/VideoSection.css"
 import cloud_left from "../../images/cloud_left.png"
 import cloud_right from "../../images/cloud_right.png"
+import video_1 from "../../videos/F2F_1.mp4"
+import video_2 from "../../videos/F2F_2.0.mp4"
 
 import Footer from "../../components/Footer"
 
@@ -49,15 +50,9 @@ const SurgicalPage = () => {
 
             <section id="calendar-sur" className="calendar-sur">
                 <h2 className="calendar-title">
-                    Agenda Oftalmología
-                </h2>
-                <h3 className="calendar-subtitle">
                     - Simposio Facocaribe -
-                </h3>
+                </h2>
                 <Carousel />
-                <div className="calendar-sur content">
-                    <img src={agenda_test} alt="Test agenda" className="calendar-vc test-img-agenda" />
-                </div>
             </section>
 
             <section className="video-sur">
@@ -67,17 +62,11 @@ const SurgicalPage = () => {
                 <div className="video-sur container">
                     <div className="video-sur content-left">
                         <img src={cloud_left} alt="Cloud left" className="video-sur cloud-img-left" />
-                        <video width="320" height="240" controls>
-                            <source src="https://youtu.be/ViotnARQIw4" type="video/mp4" />
-                            <source src="" type="video/ogg" />
-                            El navegador no soporta la etiqueta de video
+                        <video src={video_1} width="320" height="240" controls>
                         </video>
                     </div>
                     <div className="video-sur content-right">
-                        <video width="320" height="240" controls>
-                            <source src="" type="video/mp4" />
-                            <source src="" type="video/ogg" />
-                            El navegador no soporta la etiqueta de video
+                        <video src={video_2} width="320" height="240" controls>
                         </video>
                         <img src={cloud_right} alt="Cloud right" className="video-sur cloud-img-right" />
                     </div>
