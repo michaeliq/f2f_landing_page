@@ -4,44 +4,59 @@ import { useLocation } from "react-router-dom"
 import categoryItems from "../../data/category"
 import { useEffect, useState } from "react"
 
-const ListCategory = ({setCategory,categorySelected}) => {
+const ListCategory = ({ setCategory, categorySelected }) => {
 
     const [tableItems, setItems] = useState(null)
     const [tableVisible, setTableVisible] = useState(false)
+    const [categoryList,setCategoryList] = useState([])
 
     const { pathname } = useLocation()
 
-    const generateItemList = (category) => {
+    const getCategories = async () => {
+        const categoryRequest = await fetch("http://localhost:4501/api/category", {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json",
+            }
+        })
+
+        const data = await categoryRequest.json()
+        setCategoryList(data)
+    }
+
+    const generateItemList = () => {
         if (pathname === "/vision-care") {
-            const itemList = category.filter(item => {
+            const itemList = categoryList.filter(item => {
                 let value = ""
-                if (item.page === "vision care") {
+                if (item.page === "vision care" && item.available !== false) {
                     value = item
                 }
                 return value
             }).map((item, key) => {
                 return (
                     <tr key={key + item.name}>
-                        <th>{item.fecha}</th>
-                        <th>{item.horario}</th>
-                        <th><span className="item-selectable" onClick={selectCategory}>{item.name}</span></th>
+                        <th>{item.date}</th>
+                        <th>{item.hour}</th>
+                        <th>{item.name}</th>
+                        <th><span className="item-selectable" onClick={() => selectCategory(item)}>Seleccionar</span></th>
                     </tr>
                 )
             })
             return itemList
         } else if (pathname === "/surgical") {
-            const itemList = category.filter(item => {
+            const itemList = categoryList.filter(item => {
                 let value = ""
-                if (item.page === "surgical") {
+                if (item.page === "surgical" && item.available !== false) {
                     value = item
                 }
                 return value
             }).map((item, key) => {
                 return (
                     <tr key={key + item.name}>
-                        <th>{item.fecha}</th>
-                        <th>{item.horario}</th>
-                        <th><span className="item-selectable" onClick={selectCategory}>{item.name}</span></th>
+                        <th>{item.date}</th>
+                        <th>{item.hour}</th>
+                        <th>{item.name}</th>
+                        <th><span className="item-selectable" onClick={() => selectCategory(item)}>Seleccionar</span></th>
                     </tr>
                 )
             })
@@ -59,8 +74,12 @@ const ListCategory = ({setCategory,categorySelected}) => {
     }
 
     useEffect(() => {
-        setItems(generateItemList(categoryItems))
-    }, [categoryItems,setCategory])
+        setItems(generateItemList(categoryList))
+    }, [categoryItems, setCategory,categoryList])
+
+    useEffect(()=>{
+        getCategories()
+    },[categorySelected])
 
     return (
         <div className="list-category-container">
@@ -69,8 +88,8 @@ const ListCategory = ({setCategory,categorySelected}) => {
                     Categoria
                 </span>
                 <div className="list-category-select-container">
-                {categorySelected}
-                <img onClick={changeVisible} src={arrow_down} alt="Despliegue de categorias" className={`list-category img-button ${tableVisible ? "visible" : ""}`} />
+                    {categorySelected}
+                    <img onClick={changeVisible} src={arrow_down} alt="Despliegue de categorias" className={`list-category img-button ${tableVisible ? "visible" : ""}`} />
                 </div>
             </div>
             <table className={`list-category table ${tableVisible ? "visible" : ""}`}>
@@ -79,6 +98,7 @@ const ListCategory = ({setCategory,categorySelected}) => {
                         <th>Fecha</th>
                         <th>Hora</th>
                         <th>Categoria</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
