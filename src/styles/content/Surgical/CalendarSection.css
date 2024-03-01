@@ -48,8 +48,8 @@ section.calendar-sur {
 
 
     .calendar-sur>h2.calendar-title {
-        font-size: 1.2rem;
-        margin-top: 2.5vw;
+        font-size: 5.2vw;
+        margin-top: 4vh;
         -webkit-text-stroke: 1px #0c6893;
         text-shadow: 1px 1px #0c6893, -1px -1px #0c6893;
     }

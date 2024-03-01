@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .carousel-images-slice{
@@ -120,7 +120,7 @@
 
     .carousel-container-buttons{
         width: 100%;
-        bottom: -10vh;
+        bottom:-8vh;
     }
 
     .image-slice{
@@ -131,11 +131,11 @@
     .circle{
         margin: 0 auto;
         transform: scale(.6);
-        bottom: 1vw;
+        top: 1vw;
         }
     .circle2{
         margin: 0 auto;
         transform: scale(.6);
-        bottom: 1vw;
+        top: 1vw;
     }
 }

@@ -28,22 +28,24 @@ const SurgicalPage = () => {
                 <img src={banner_logo} alt="Banner logo" className="banner-main logo" />
                 <h1 className="banner-main title">¡Surgical!</h1>
                 <div className="banner-main info">
-                    <p className="banner-main-info1">
-                        ¡No te pierdas la oportunidad DE FORMAR PARTE DE ESTA EXPERIENCIA!
-                    </p>
-                    <Link className="banner-main-link" to="/vision-care">
-                        ¡Vision Care!
+                    
+                    <Link className="banner-main-link" to="/surgical#video">
+                        Comite Informativo
                     </Link>
+
+                    <p className="banner-main-info1">
+                        ¡No te pierdas la oportunidad de poner a prueba sus conocimientos!
+                    </p>
                 </div>
             </section>
 
             <section id="form-section-sur" className="form-section-sur">
                 <div className="line-divider"></div>
                 <h2 className="form-section title">
-                    EN F2F CHALLENGE, SABEMOS QUE LAS<br></br> MEJORES EXPERIENCIAS SE VIVEN EN EQUIPO.
+                    ¡Compita con los mejores!<br></br> Registrese.
                 </h2>
                 <p className="form-section subtitle">
-                    ¡Invita a tu compañero/a a registrarse como dúo imparable!
+                    ¡Invita a su compañero/a para ser un dúo imparable!
                 </p>
                 <FormCompatitor />
             </section>
@@ -55,7 +57,7 @@ const SurgicalPage = () => {
                 <Carousel />
             </section>
 
-            <section className="video-sur">
+            <section id="video" className="video-sur">
                 <h2 className="video-sur title">
                     COMITÉ INFORMATIVO
                 </h2>

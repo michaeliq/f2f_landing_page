@@ -47,8 +47,8 @@ section.calendar-vc{
     }
 
     .calendar-vc > h2.calendar-title {
-        font-size: 1.2rem;
-        margin-top: 2.9vw;
+        font-size: 5.2vw;
+        margin-top: 4vh;
         -webkit-text-stroke: 1px #661d76;
         text-shadow: 1px 1px #661d76, -1px -1px #661d76;
     }

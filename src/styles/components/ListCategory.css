@@ -42,6 +42,41 @@
     right: 3rem;
 }
 
+.list-category-dialog{
+    display: none;
+    height: 0;
+    transition: .3s;
+}
+
+.list-category-dialog.visible{
+    display: block;
+    height: 100%;
+}
+
+.list-category-dialog-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.list-category-dialog-box p {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-top: 5px solid #000;
+    margin: 0;
+    padding: 1rem 0;
+    font-family: "OpenSans";
+    font-weight: bolder;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.list-category-dialog-box p:last-child {
+    border-bottom: none;
+}
+
+
 .list-category.table {
     width: 82vw;
     position: relative;
@@ -116,7 +151,7 @@
     .list-category.table th {
         border: 1px solid #000;
         background-color: #fff;
-        font-size: 5vw;
+        font-size: 4vw;
         height: 2rem;
     }
 }

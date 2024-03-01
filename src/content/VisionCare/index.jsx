@@ -28,22 +28,22 @@ const VisionCarePage = () => {
                 <img src={banner_logo} alt="Banner logo" className="banner-main logo" />
                 <h1 className="banner-main title">¡Vision Care!</h1>
                 <div className="banner-main info">
-                    <p className="banner-main-info1">
-                        ¡No te pierdas la oportunidad DE FORMAR PARTE DE ESTA EXPERIENCIA!
-                    </p>
-                    <Link className="banner-main-link" to="/surgical">
-                        ¡Surgical!
+                    <Link className="banner-main-link" to="/vision-care#video">
+                        Comite Informativo
                     </Link>
+                    <p className="banner-main-info1">
+                        ¡No te pierdas la oportunidad de poner a prueba sus conocimientos!
+                    </p>
                 </div>
             </section>
 
             <section id="form-section-vc" className="form-section-vc">
                 <div className="line-divider"></div>
                 <h2 className="form-section title">
-                    EN F2F CHALLENGE, SABEMOS QUE LAS<br></br> MEJORES EXPERIENCIAS SE VIVEN EN EQUIPO.
+                    ¡Compita con los mejores!<br></br> Registrese.
                 </h2>
                 <p className="form-section subtitle">
-                    ¡Invita a tu compañero/a a registrarse como dúo imparable!
+                    ¡Invita a su compañero/a para ser un dúo imparable!
                 </p>
                 <FormCompatitor />
             </section>
@@ -55,7 +55,7 @@ const VisionCarePage = () => {
                 <Carousel />
             </section>
 
-            <section className="video-vc">
+            <section id="video" className="video-vc">
                 <h2 className="video-vc title">
                     COMITÉ INFORMATIVO
                 </h2>
@@ -66,7 +66,7 @@ const VisionCarePage = () => {
                         </video>
                     </div>
                     <div className="video-vc content-right">
-                    <video src={video_2} width="320" height="240" controls>
+                        <video src={video_2} width="320" height="240" controls>
                         </video>
                         <img src={cloud_right} alt="Cloud right" className="video-vc cloud-img-right" />
                     </div>
