@@ -32,7 +32,8 @@ const VisionCarePage = () => {
                         Comite Informativo
                     </Link>
                     <p className="banner-main-info1">
-                        ¡No te pierdas la oportunidad de poner a prueba sus conocimientos!
+                        ¡NO SE PIERDA LA OPORTUNIDAD DE <span>PONER A PRUEBA SUS CONOCIMIENTOS!</span><br/>
+                        <span>¡COMBATIENDO EN EL RING!</span>
                     </p>
                 </div>
             </section>
@@ -40,7 +41,7 @@ const VisionCarePage = () => {
             <section id="form-section-vc" className="form-section-vc">
                 <div className="line-divider"></div>
                 <h2 className="form-section title">
-                    ¡Compita con los mejores!<br></br> Registrese.
+                    ¡Compita con los mejores!<br></br> Regístrese.
                 </h2>
                 <p className="form-section subtitle">
                     ¡Invita a su compañero/a para ser un dúo imparable!
