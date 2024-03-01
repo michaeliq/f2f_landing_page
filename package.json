@@ -1,5 +1,6 @@
 {
   "name": "landing-page",
+  "homepage": "https://michaeliq.github.io/f2f_landing_page/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
