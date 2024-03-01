@@ -19,6 +19,10 @@ img.footer-img-facocaribe{
     bottom: 4.3vw;
 }
 
+.footer-img-movil{
+    display: none;
+}
+
 @media only screen and (max-width:1024px) {
     img.footer-img-facocaribe{
         position: absolute;
@@ -34,6 +38,18 @@ img.footer-img-facocaribe{
         right: 5vw;
         bottom: 4.3vw;
         width: 13vw;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .footer-img-alcon, img.footer-img-facocaribe, .footer-img{
+        display: none;
+    }
+
+    .footer-img-movil{
+        display: block;
+        width: 100%;
         height: auto;
     }
 }
