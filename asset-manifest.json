@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/f2f_landing_page/static/css/main.cd027068.css",
-    "main.js": "/f2f_landing_page/static/js/main.71e5d819.js",
+    "main.css": "/f2f_landing_page/static/css/main.f510549e.css",
+    "main.js": "/f2f_landing_page/static/js/main.1ea7ab3f.js",
     "static/media/F2F_2.0.mp4": "/f2f_landing_page/static/media/F2F_2.0.2a60a8e9ce282f4af21a.mp4",
     "static/media/F2F_1.mp4": "/f2f_landing_page/static/media/F2F_1.1e5c0d515d6a10c535a3.mp4",
     "static/media/FONDOS-BANNERS-SURGICAL.png": "/f2f_landing_page/static/media/FONDOS-BANNERS-SURGICAL.c7e67d8eeebabecf3e87.png",
@@ -40,11 +40,11 @@
     "static/media/cloud_left.png": "/f2f_landing_page/static/media/cloud_left.a3034d74663c5bd252d6.png",
     "static/media/banner solo.png": "/f2f_landing_page/static/media/banner solo.04943dc63e78fd5b6280.png",
     "index.html": "/f2f_landing_page/index.html",
-    "main.cd027068.css.map": "/f2f_landing_page/static/css/main.cd027068.css.map",
-    "main.71e5d819.js.map": "/f2f_landing_page/static/js/main.71e5d819.js.map"
+    "main.f510549e.css.map": "/f2f_landing_page/static/css/main.f510549e.css.map",
+    "main.1ea7ab3f.js.map": "/f2f_landing_page/static/js/main.1ea7ab3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd027068.css",
-    "static/js/main.71e5d819.js"
+    "static/css/main.f510549e.css",
+    "static/js/main.1ea7ab3f.js"
   ]
 }
