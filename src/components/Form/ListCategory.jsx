@@ -9,6 +9,7 @@ const ListCategory = ({ setCategory, categorySelected }) => {
     const [tableItems, setItems] = useState(null)
     const [tableVisible, setTableVisible] = useState(false)
     const [categoryList,setCategoryList] = useState([])
+    const [categorySelectedByList, setCategoryByList] = useState("")
 
     const { pathname } = useLocation()
 

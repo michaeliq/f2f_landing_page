@@ -50,14 +50,14 @@ const SurgicalPage = () => {
 
             <section id="calendar-sur" className="calendar-sur">
                 <h2 className="calendar-title">
-                    - Simposio Facocaribe -
+                    - Simposio Oftalmología -
                 </h2>
                 <Carousel />
             </section>
 
             <section className="video-sur">
                 <h2 className="video-sur title">
-                    COMITÉ CIENTÍFICO
+                    COMITÉ INFORMATIVO
                 </h2>
                 <div className="video-sur container">
                     <div className="video-sur content-left">

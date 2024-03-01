@@ -50,14 +50,14 @@ const VisionCarePage = () => {
 
             <section id="calendar-vc" className="calendar-vc">
                 <h2 className="calendar-title">
-                    - Simposio Facocaribe -
+                    - Simposio Optometría -
                 </h2>
                 <Carousel />
             </section>
 
             <section className="video-vc">
                 <h2 className="video-vc title">
-                    COMITÉ CIENTÍFICO
+                    COMITÉ INFORMATIVO
                 </h2>
                 <div className="video-vc container">
                     <div className="video-vc content-left">
