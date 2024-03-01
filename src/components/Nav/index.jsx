@@ -56,12 +56,12 @@ const Nav = () => {
                 <IoMdClose onClick={() =>setMenuState(prev => !prev)} />}
             </div>
             <ul className={`navbar-link-container ${menuActive ? "active":""}`}>
-                <Link to={currentPath === "/surgical" ? "/surgical#form-section-sur":"/vision-care#form-section-vc"} className="navbar-link-item">
+                <Link onClick={() =>setMenuState(prev => !prev)} to={currentPath === "/surgical" ? "/surgical#form-section-sur":"/vision-care#form-section-vc"} className="navbar-link-item">
                     <BoxItemNav>
                         <li>Inscríbase en el Ring</li>
                     </BoxItemNav>
                 </Link>
-                <Link to={currentPath === "/surgical" ? "/surgical#calendar-sur":"/vision-care#calendar-vc"} className="navbar-link-item">
+                <Link onClick={() =>setMenuState(prev => !prev)} to={currentPath === "/surgical" ? "/surgical#calendar-sur":"/vision-care#calendar-vc"} className="navbar-link-item">
                     <BoxItemNav>
                         <li>{currentPath === "/vision-care" ? "Vision Care":"Surgical"}</li>
                     </BoxItemNav>
