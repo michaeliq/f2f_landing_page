@@ -104,6 +104,12 @@
         column-gap: 4rem;
     }
 
+    .banner-main-info1,
+    .banner-main-info1 span:first-child,
+    .banner-main-info1 span:last-child{
+        font-size: 2.5vw;
+}
+
     .banner-section-sur .banner-main-info1 {
         color:#fff;
         font-size: 2.5vw;
@@ -113,7 +119,7 @@
     .banner-section-sur a.banner-main-link {
         color:#fff;
         font-size: 4vw;
-        justify-self: center;
+        text-align: left;
         align-self: center;
     }
 }
