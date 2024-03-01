@@ -30,10 +30,9 @@ const ListCategory = ({ setCategory, categorySelected }) => {
     }
 
     const generateItemList = () => {
-        if (pathname === "/vision-care") {
             const itemList = categoryList.filter(item => {
                 let value = ""
-                if (item.page === "vision care" && item.available !== false && item.name === categorySelectedByList) {
+                if (item.available !== false && item.name === categorySelectedByList) {
                     value = item
                 }
                 return value
@@ -51,45 +50,15 @@ const ListCategory = ({ setCategory, categorySelected }) => {
                 )
             })
             return itemList
-        } else if (pathname === "/surgical") {
-            const itemList = categoryList.filter(item => {
-                let value = ""
-                if (item.page === "surgical" && item.available !== false && item.name === categorySelectedByList) {
-                    value = item
-                }
-                return value
-            }).map((item, key) => {
-                return (
-                    <tr key={key + item.name}>
-                        <th>{item.date}</th>
-                        <th>{item.hour}</th>
-                        <th>{item.name}</th>
-                        <th><span className="item-selectable" onClick={() => {
-                            selectCategory(item)
-                            setCategoryByList("")
-                        }}>Seleccionar</span></th>
-                    </tr>
-                )
-            })
-            return itemList
-        }
     }
 
     const filterCategories = () => {
         const uniqueCategoryNames = []
-        if (pathname === "/vision-care"){
-            categoryList.forEach((item) => {
-                if (uniqueCategoryNames.indexOf(item?.name) === -1 && item?.page === "vision care") {
-                    uniqueCategoryNames.push(item?.name)
-                }
-            })
-        }else{
-            categoryList.forEach((item) => {
-                if (uniqueCategoryNames.indexOf(item?.name) === -1 && item?.page === "surgical") {
-                    uniqueCategoryNames.push(item?.name)
-                }
-            })
-        }
+        categoryList.forEach((item) => {
+            if (uniqueCategoryNames.indexOf(item?.name) === -1) {
+                uniqueCategoryNames.push(item?.name)
+            }
+        })
 
         setCategoriesByDialog(uniqueCategoryNames)
     }
@@ -115,10 +84,10 @@ const ListCategory = ({ setCategory, categorySelected }) => {
         <div className="list-category-container">
             <div className="list-category button-display">
                 <span className="list-category text-button">
-                    Categoria
+                    Módulo
                 </span>
                 <div className="list-category-select-container">
-                    {categorySelected} {categorySelectedByList && <span className="list-category-select-reset"  onClick={()=>setCategoryByList("")}><RxReset/></span> }
+                    {categorySelected} {categorySelectedByList && <span className="list-category-select-reset" onClick={() => setCategoryByList("")}><RxReset /></span>}
                     <img onClick={changeVisible} src={arrow_down} alt="Despliegue de categorias" className={`list-category img-button ${tableVisible ? "visible" : ""}`} />
                 </div>
             </div>

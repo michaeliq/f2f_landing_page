@@ -58,7 +58,7 @@ const Nav = () => {
             <ul className={`navbar-link-container ${menuActive ? "active":""}`}>
                 <Link to={currentPath === "/surgical" ? "/surgical#form-section-sur":"/vision-care#form-section-vc"} className="navbar-link-item">
                     <BoxItemNav>
-                        <li>Inscribase en el Ring</li>
+                        <li>Inscríbase en el Ring</li>
                     </BoxItemNav>
                 </Link>
                 <Link to={currentPath === "/surgical" ? "/surgical#calendar-sur":"/vision-care#calendar-vc"} className="navbar-link-item">
