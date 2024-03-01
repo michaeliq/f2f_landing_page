@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/f2f_landing_page/static/css/main.a64b5edd.css",
+    "main.css": "/f2f_landing_page/static/css/main.6872d2e4.css",
     "main.js": "/f2f_landing_page/static/js/main.8e44a86e.js",
     "static/media/F2F_2.0.mp4": "/f2f_landing_page/static/media/F2F_2.0.2a60a8e9ce282f4af21a.mp4",
     "static/media/F2F_1.mp4": "/f2f_landing_page/static/media/F2F_1.1e5c0d515d6a10c535a3.mp4",
@@ -41,11 +41,11 @@
     "static/media/footer movil.png": "/f2f_landing_page/static/media/footer movil.bf1de5f647fd6bc9e2b2.png",
     "static/media/banner solo.png": "/f2f_landing_page/static/media/banner solo.04943dc63e78fd5b6280.png",
     "index.html": "/f2f_landing_page/index.html",
-    "main.a64b5edd.css.map": "/f2f_landing_page/static/css/main.a64b5edd.css.map",
+    "main.6872d2e4.css.map": "/f2f_landing_page/static/css/main.6872d2e4.css.map",
     "main.8e44a86e.js.map": "/f2f_landing_page/static/js/main.8e44a86e.js.map"
   },
   "entrypoints": [
-    "static/css/main.a64b5edd.css",
+    "static/css/main.6872d2e4.css",
     "static/js/main.8e44a86e.js"
   ]
 }
