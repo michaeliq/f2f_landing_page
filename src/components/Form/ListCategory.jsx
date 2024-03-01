@@ -3,6 +3,8 @@ import arrow_down from "../../images/category-arrow-down.png"
 import { useLocation } from "react-router-dom"
 import categoryItems from "../../data/category"
 import { useEffect, useState } from "react"
+import { RxReset } from "react-icons/rx";
+
 
 const ListCategory = ({ setCategory, categorySelected }) => {
 
@@ -116,7 +118,7 @@ const ListCategory = ({ setCategory, categorySelected }) => {
                     Categoria
                 </span>
                 <div className="list-category-select-container">
-                    {categorySelected}
+                    {categorySelected} {categorySelectedByList && <span className="list-category-select-reset"  onClick={()=>setCategoryByList("")}><RxReset/></span> }
                     <img onClick={changeVisible} src={arrow_down} alt="Despliegue de categorias" className={`list-category img-button ${tableVisible ? "visible" : ""}`} />
                 </div>
             </div>

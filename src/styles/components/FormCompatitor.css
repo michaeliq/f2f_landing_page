@@ -103,6 +103,12 @@ input::-webkit-inner-spin-button {
     font-size: 1.2rem;
 }
 
+.list-category-select-reset{
+    color:#000;
+    margin-right:1vw;
+    cursor: pointer;
+}
+
 @media only screen and (max-width:1024px) {
     form.form-compatitor-container {
         margin: 2rem auto;
