@@ -4,6 +4,7 @@ import { Link, useLocation } from "react-router-dom"
 import BoxItemNav from "../../molecules/BoxItemNav"
 import { IoMdMenu } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
+import alcon_logo from "../../images/logo Alcon movil.png"
 
 const Nav = () => {
 
@@ -50,7 +51,7 @@ const Nav = () => {
     return (
         <div className="navbar">
             <div className="navbar-movil">
-                <span>Alcon</span>
+                <img src={alcon_logo} alt="alcon logo" className="nav-alcon-logo"/>
                 {!menuActive ? <IoMdMenu onClick={() =>setMenuState(prev => !prev)} /> :
                 <IoMdClose onClick={() =>setMenuState(prev => !prev)} />}
             </div>

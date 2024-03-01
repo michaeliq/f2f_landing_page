@@ -30,7 +30,7 @@ const SurgicalPage = () => {
                 <div className="banner-main info">
                     
                     <Link className="banner-main-link" to="/surgical#video">
-                        Comite Informativo
+                        Comité Informativo
                     </Link>
 
                     <p className="banner-main-info1">
@@ -46,7 +46,7 @@ const SurgicalPage = () => {
                     ¡Compita con los mejores!<br></br> Regístrese.
                 </h2>
                 <p className="form-section subtitle">
-                    ¡Invita a su compañero/a para ser un dúo imparable!
+                    ¡Invite a su compañero/a para ser un dúo imparable!
                 </p>
                 <FormCompatitor />
             </section>

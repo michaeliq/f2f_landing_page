@@ -29,7 +29,7 @@ const VisionCarePage = () => {
                 <h1 className="banner-main title">¡Vision Care!</h1>
                 <div className="banner-main info">
                     <Link className="banner-main-link" to="/vision-care#video">
-                        Comite Informativo
+                        Comité Informativo
                     </Link>
                     <p className="banner-main-info1">
                         ¡NO SE PIERDA LA OPORTUNIDAD DE <span>PONER A PRUEBA SUS CONOCIMIENTOS!</span><br/>
@@ -44,7 +44,7 @@ const VisionCarePage = () => {
                     ¡Compita con los mejores!<br></br> Regístrese.
                 </h2>
                 <p className="form-section subtitle">
-                    ¡Invita a su compañero/a para ser un dúo imparable!
+                    ¡Invite a su compañero/a para ser un dúo imparable!
                 </p>
                 <FormCompatitor />
             </section>
