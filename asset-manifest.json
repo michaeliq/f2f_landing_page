@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/f2f_landing_page/static/css/main.a793c4ee.css",
-    "main.js": "/f2f_landing_page/static/js/main.1ea7ab3f.js",
+    "main.css": "/f2f_landing_page/static/css/main.a64b5edd.css",
+    "main.js": "/f2f_landing_page/static/js/main.8e44a86e.js",
     "static/media/F2F_2.0.mp4": "/f2f_landing_page/static/media/F2F_2.0.2a60a8e9ce282f4af21a.mp4",
     "static/media/F2F_1.mp4": "/f2f_landing_page/static/media/F2F_1.1e5c0d515d6a10c535a3.mp4",
     "static/media/FONDOS-BANNERS-SURGICAL.png": "/f2f_landing_page/static/media/FONDOS-BANNERS-SURGICAL.c7e67d8eeebabecf3e87.png",
@@ -38,13 +38,14 @@
     "static/media/cloud_right.png": "/f2f_landing_page/static/media/cloud_right.ec2b2827a61d446409bb.png",
     "static/media/11492-fontps.ttf": "/f2f_landing_page/static/media/11492-fontps.d5b67ca1be6b639bf442.ttf",
     "static/media/cloud_left.png": "/f2f_landing_page/static/media/cloud_left.a3034d74663c5bd252d6.png",
+    "static/media/footer movil.png": "/f2f_landing_page/static/media/footer movil.bf1de5f647fd6bc9e2b2.png",
     "static/media/banner solo.png": "/f2f_landing_page/static/media/banner solo.04943dc63e78fd5b6280.png",
     "index.html": "/f2f_landing_page/index.html",
-    "main.a793c4ee.css.map": "/f2f_landing_page/static/css/main.a793c4ee.css.map",
-    "main.1ea7ab3f.js.map": "/f2f_landing_page/static/js/main.1ea7ab3f.js.map"
+    "main.a64b5edd.css.map": "/f2f_landing_page/static/css/main.a64b5edd.css.map",
+    "main.8e44a86e.js.map": "/f2f_landing_page/static/js/main.8e44a86e.js.map"
   },
   "entrypoints": [
-    "static/css/main.a793c4ee.css",
-    "static/js/main.1ea7ab3f.js"
+    "static/css/main.a64b5edd.css",
+    "static/js/main.8e44a86e.js"
   ]
 }
