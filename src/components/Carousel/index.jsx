@@ -46,7 +46,6 @@ const Carousel = () => {
             setImages([option[position - 1]])
         } else if (pathname === "/vision-care") {
             const option = [
-                {src:img_1_vc},
                 {src:img_2_vc}
             ]
             setOptions(option)
