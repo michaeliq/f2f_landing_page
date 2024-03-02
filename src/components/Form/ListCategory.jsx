@@ -1,7 +1,6 @@
 import "../../styles/components/ListCategory.css"
 import arrow_down from "../../images/category-arrow-down.png"
 import { useLocation } from "react-router-dom"
-import categoryItems from "../../data/category"
 import { useEffect, useState } from "react"
 import { RxReset } from "react-icons/rx";
 
@@ -30,26 +29,26 @@ const ListCategory = ({ setCategory, categorySelected }) => {
     }
 
     const generateItemList = () => {
-            const itemList = categoryList.filter(item => {
-                let value = ""
-                if (item.available !== false && item.name === categorySelectedByList) {
-                    value = item
-                }
-                return value
-            }).map((item, key) => {
-                return (
-                    <tr key={key + item.name}>
-                        <th>{item.date}</th>
-                        <th>{item.hour}</th>
-                        <th>{item.name}</th>
-                        <th><span className="item-selectable" onClick={() => {
-                            selectCategory(item)
-                            setCategoryByList("")
-                        }}>Seleccionar</span></th>
-                    </tr>
-                )
-            })
-            return itemList
+        const itemList = categoryList.filter(item => {
+            let value = ""
+            if (item.available !== false && item.name === categorySelectedByList) {
+                value = item
+            }
+            return value
+        }).map((item, key) => {
+            return (
+                <tr key={key + item.name}>
+                    <th>{item.date}</th>
+                    <th>{item.hour}</th>
+                    <th>{item.name}</th>
+                    <th><span className="item-selectable" onClick={() => {
+                        selectCategory(item)
+                        setCategoryByList("")
+                    }}>Seleccionar</span></th>
+                </tr>
+            )
+        })
+        return itemList
     }
 
     const filterCategories = () => {
@@ -59,8 +58,10 @@ const ListCategory = ({ setCategory, categorySelected }) => {
                 uniqueCategoryNames.push(item?.name)
             }
         })
-
-        setCategoriesByDialog(uniqueCategoryNames)
+        if (dialogListCategories.length <= 0) {
+            setCategoriesByDialog(uniqueCategoryNames)
+            return
+        }
     }
 
     const selectCategory = (e) => {
@@ -74,11 +75,11 @@ const ListCategory = ({ setCategory, categorySelected }) => {
 
     useEffect(() => {
         setItems(generateItemList(categoryList))
-    }, [categoryItems, setCategory, categoryList])
+    }, [categoryList,categorySelectedByList])
 
     useEffect(() => {
         getCategories()
-    }, [categorySelected, dialogListCategories])
+    }, [dialogListCategories,categorySelected])
 
     return (
         <div className="list-category-container">
