@@ -39,7 +39,8 @@ const FormCompatitor = () => {
                     movil: compatitorData.movil1,
                     category: compatitorData.name,
                     city: compatitorData.city1,
-                    gener:compatitorData.gener
+                    gener1: compatitorData.gener1,
+                    gener2: compatitorData.gener2
                 }),
                 headers: {
                     "Content-Type": "application/json",
@@ -73,7 +74,7 @@ const FormCompatitor = () => {
                 movil1: "",
                 email1: "",
                 category: "",
-                gener:""
+                gener: ""
             })
 
             setStatusCheck(false)
@@ -102,12 +103,12 @@ const FormCompatitor = () => {
                                 Género
                             </label>
                             <div>
-                                <input type="radio" id="hombre" onChange={setDataForm} name="gener" value="hombre" />
+                                <input type="radio" id="hombre" onChange={setDataForm} name="gener1" value="hombre" />
                                 <label for="huey">M</label>
                             </div>
 
                             <div>
-                                <input type="radio" id="mujer" onChange={setDataForm} name="gener" value="mujer" />
+                                <input type="radio" id="mujer" onChange={setDataForm} name="gener1" value="mujer" />
                                 <label for="dewey">F</label>
                             </div>
                         </div>
@@ -138,6 +139,20 @@ const FormCompatitor = () => {
                             Compañero/a combate:
                         </label>
                         <input value={compatitorData?.fullname2} onChange={setDataForm} type="text" id="fullname2" name="fullname2" />
+                        <div className="form-gener-box">
+                            <label htmlFor="fullname1">
+                                Género
+                            </label>
+                            <div>
+                                <input type="radio" id="hombre" onChange={setDataForm} name="gener2" value="hombre" />
+                                <label for="huey">M</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" id="mujer" onChange={setDataForm} name="gener2" value="mujer" />
+                                <label for="dewey">F</label>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <ListCategory setCategory={setCategoryForm} categorySelected={compatitorData?.name} />
