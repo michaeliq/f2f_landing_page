@@ -14,7 +14,7 @@ import Carousel from "../../components/Carousel"
 import "../../styles/content/Vision/VideoSection.css"
 import cloud_left from "../../images/cloud_left.png"
 import cloud_right from "../../images/cloud_right.png"
-import video_1 from "../../videos/F2F_1.mp4"
+import video_1 from "../../videos/F2F_VC_1.mp4"
 import video_2 from "../../videos/F2F_2.0.mp4"
 
 import Footer from "../../components/Footer"
