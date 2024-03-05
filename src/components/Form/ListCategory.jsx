@@ -59,7 +59,7 @@ const ListCategory = ({ setCategory, categorySelected }) => {
             }
         })
         if (dialogListCategories.length <= 0) {
-            setCategoriesByDialog(uniqueCategoryNames)
+            setCategoriesByDialog(uniqueCategoryNames.sort())
             return
         }
     }
