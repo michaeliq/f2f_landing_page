@@ -31,7 +31,7 @@ const ListCategory = ({ setCategory, categorySelected }) => {
     const generateItemList = () => {
         const itemList = categoryList.filter(item => {
             let value = ""
-            if (item.available !== false && item.name === categorySelectedByList) {
+            if (item.date != "07/03" && item.available !== false && item.name === categorySelectedByList) {
                 value = item
             }
             return value
